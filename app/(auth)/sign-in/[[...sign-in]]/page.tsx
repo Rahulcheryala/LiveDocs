@@ -1,11 +1,11 @@
-import { SignIn } from '@clerk/nextjs'
+import { SignIn } from "@clerk/nextjs";
 
 const SignInPage = () => {
   return (
-    <main className="auth-page">
+    <main className="min-h-screen w-full grid place-content-center">
       <SignIn />
     </main>
-  )
-}
+  );
+};
 
-export default SignInPage
+export default SignInPage;
