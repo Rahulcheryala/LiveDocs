@@ -68,7 +68,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://rahuls-team.sentry.io/projects/javascript-nextjs/?project=4507900899950592">
+          <a href="https://rahuls-team.sentry.io/projects/livedocs/?project=4507900899950592">
             Issues Page
           </a>
           .
