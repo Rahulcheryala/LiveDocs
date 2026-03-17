@@ -39,7 +39,7 @@ export default function RootLayout({
         <body
           className={cn(
             "min-h-screen font-sans antialiased",
-            fontSans.variable
+            fontSans.variable,
           )}
         >
           <Provider>{children}</Provider>

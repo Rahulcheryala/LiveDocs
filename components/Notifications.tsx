@@ -22,7 +22,7 @@ const Notifications = () => {
   const { count } = useUnreadInboxNotificationsCount();
 
   const unreadNotifications = inboxNotifications.filter(
-    (notification) => !notification.readAt
+    (notification) => !notification.readAt,
   );
 
   return (
